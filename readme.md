@@ -9,10 +9,13 @@ It was specifically optimized to transfer UART messages from a WitMotion IMU, bu
 
 ## How to use
 
-Install CubeMXIde and import this project
+Install CubeMXIde and import this project.
 
 
-Plug in a WitMotion IMU to the STM32 board and un USB cable.
+Plug in a WitMotion IMU to the STM32 board and a USB cable.
+You can view data with your favorite imu terminal (I use Termite).
+
+
 This demo uses the USB ports (PA11 and PA12) and the UART 7 (PE7 and PE8).
 
 
